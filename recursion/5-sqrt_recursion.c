@@ -17,6 +17,7 @@ int _sqrt_recursion(int n)
  * check - checks if the number is a natural square root
  *
  * @gs: the value to multiply
+ * @n: the number to return the natural square root for
  *
  * Return: result of n
  */
