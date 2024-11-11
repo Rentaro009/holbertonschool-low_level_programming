@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
 		{
 			if (argv[n][m] > '9' || argv[n][m] < '0')
 			{
-				printf("Error");
+				puts("Error");
 				return (1);
 			}
 		}
