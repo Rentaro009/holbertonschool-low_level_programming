@@ -21,12 +21,12 @@ int _atoi(char *s)
 	dt = 0;
 
 	while (s[lh] != '\0')
-		lh ++;
+		lh++;
 
 	while (n < lh && p == 0)
 	{
 		if (s[n] == '-')
-			++ d;
+			++d;
 
 		if (s[n] >= '0' && s[n] <= '9')
 		{
